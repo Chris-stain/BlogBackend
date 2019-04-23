@@ -3,8 +3,8 @@ A Back-end project for a blog application
 
 Four microservices that make up a blog web service. The service allows users to create accounts, publish articles, comment on articles, and add tags to articles. Additional features include:
 
-*An Nginx reverse proxy to serve as a load balancer to distribute the requests between each microservice and their copies.
-*An RSS feed that retrieves full articles, comments, or article summaries.
+* An Nginx reverse proxy to serve as a load balancer to distribute the requests between each microservice and their copies.
+* An RSS feed that retrieves full articles, comments, or article summaries.
 
 
 # Things to install:
