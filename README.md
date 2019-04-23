@@ -22,9 +22,12 @@ sudo apt install --yes nginx-extras
 sudo pip3 install Flask-BasicAuth
 
 # Setup #
-Create the databases: cd db/cmd/ && python3 create_dbs.py
+Navigate to the project directory
 
-Start the services: cd ../.. && foreman start --formation all=3
+## Commands ##
+Create the databases: python3 create_dbs.py
+
+Start the services: foreman start --formation all=3
 
 Nginx configuration: Replace code in /etc/nginx/sites-enabled/default with code in the nginx-setup/sites-enabled-default file Once foreman has started, compare the ports for each service with the ports in the upstream portion of the nginx config file. Alter if necessary.
 
