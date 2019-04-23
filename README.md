@@ -6,6 +6,10 @@ Four microservices that make up a blog web service. The service allows users to 
 * An Nginx reverse proxy to serve as a load balancer to distribute the requests between each microservice and their copies.
 * An RSS feed that retrieves full articles, comments, or article summaries.
 
+## Team Members
+* Jeffrey Guerra
+* Chloe Ho
+* Christian Jimenez
 
 # Things to install:
 
