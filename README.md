@@ -7,9 +7,10 @@ Four microservices that make up a blog web service. The service allows users to 
 * An RSS feed that retrieves full articles, comments, or article summaries.
 
 ## Team Members
+* Christian Jimenez
 * Jeffrey Guerra
 * Chloe Ho
-* Christian Jimenez
+
 
 # Things to install:
 
